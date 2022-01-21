@@ -41,7 +41,7 @@ I will build a model that will predict the price of Airbnb's.
 I will use this to build a dashboard so that people can input details about their property and for an estimate price to be generated.
 
 
-# phase5_final
+### phase5_final
 I found great and extensive data from Airbnb. 
 
 I analysed this data and performed a lot of data manipulation to make sure that it is usabel for us. 
@@ -50,7 +50,9 @@ I analysed this data and performed a lot of data manipulation to make sure that 
 ![image](https://user-images.githubusercontent.com/59200380/150589901-2a732ebf-68a2-460b-8a6a-4fd6b2640199.png)
 
 
+
 (House prices by room type)
+
 ![image](https://user-images.githubusercontent.com/59200380/150589911-be22d889-11b0-4932-9f85-7261dbad6b93.png)
 
 
@@ -67,5 +69,16 @@ We used dash to create the dashboard. We had to manipulate the data that is inpu
 
 ![image](https://user-images.githubusercontent.com/59200380/150589875-4d3be762-2957-4699-80f1-fd752b1f150b.png)
 
+
+### The dashboard files
+
+layout
+This is the dayout for the dash dashboard. I try to make it as simple as possible. I try to style it so that it looks like Airbnb has built it.
+
+process_inputs
+This transforms the data inputted in the dashboard into a format readable by the model then predicts the price using the model
+
+main
+This is main file which pulls together the layoud and the process inputs to generate a final price prediction in the dashboard
 
 
